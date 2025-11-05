@@ -1,2 +1,4 @@
 sionna
 ipykernel
+pyvista
+trame

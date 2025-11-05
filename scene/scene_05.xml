@@ -1,0 +1,247 @@
+<scene version="2.1.0">
+
+<!-- Defaults, these can be set via the command line: -Darg=value -->
+
+
+<!-- Camera and Rendering Parameters -->
+
+	<integrator type="path" id="elm__0" name="elm__0">
+		<integer name="max_depth" value="12"/>
+	</integrator>
+
+<!-- Materials -->
+
+	<bsdf type="twosided" id="mat-itu_concrete.002" name="mat-itu_concrete.002">
+		<bsdf type="principled" name="bsdf">
+			<rgb value="0.800000 0.800000 0.800000" name="base_color"/>
+			<float name="spec_tint" value="0.000000"/>
+			<float name="spec_trans" value="0.000000"/>
+			<float name="metallic" value="0.000000"/>
+			<float name="anisotropic" value="0.000000"/>
+			<float name="roughness" value="0.250000"/>
+			<float name="sheen" value="0.000000"/>
+			<float name="sheen_tint" value="0.500000"/>
+			<float name="clearcoat" value="0.000000"/>
+			<float name="clearcoat_gloss" value="0.000900"/>
+			<float name="specular" value="0.500000"/>
+		</bsdf>
+	</bsdf>
+	<bsdf type="twosided" id="mat-itu_concrete.001" name="mat-itu_concrete.001">
+		<bsdf type="principled" name="bsdf">
+			<rgb value="0.800000 0.800000 0.800000" name="base_color"/>
+			<float name="spec_tint" value="0.000000"/>
+			<float name="spec_trans" value="0.000000"/>
+			<float name="metallic" value="0.000000"/>
+			<float name="anisotropic" value="0.000000"/>
+			<float name="roughness" value="0.250000"/>
+			<float name="sheen" value="0.000000"/>
+			<float name="sheen_tint" value="0.500000"/>
+			<float name="clearcoat" value="0.000000"/>
+			<float name="clearcoat_gloss" value="0.000900"/>
+			<float name="specular" value="0.500000"/>
+		</bsdf>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-itu_glass.001" name="mat-itu_glass.001">
+		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-custom_cloth" name="mat-custom_cloth">
+		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-itu_wood.005" name="mat-itu_wood.005">
+		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="twosided" id="mat-itu_concrete.003" name="mat-itu_concrete.003">
+		<bsdf type="principled" name="bsdf">
+			<rgb value="0.800000 0.800000 0.800000" name="base_color"/>
+			<float name="spec_tint" value="0.000000"/>
+			<float name="spec_trans" value="0.000000"/>
+			<float name="metallic" value="0.000000"/>
+			<float name="anisotropic" value="0.000000"/>
+			<float name="roughness" value="0.250000"/>
+			<float name="sheen" value="0.000000"/>
+			<float name="sheen_tint" value="0.500000"/>
+			<float name="clearcoat" value="0.000000"/>
+			<float name="clearcoat_gloss" value="0.000900"/>
+			<float name="specular" value="0.500000"/>
+		</bsdf>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-custom_cloth.001" name="mat-custom_cloth.001">
+		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-custom_cloth.002" name="mat-custom_cloth.002">
+		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-custom_cloth.003" name="mat-custom_cloth.003">
+		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-itu_wood.006" name="mat-itu_wood.006">
+		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-custom_leather" name="mat-custom_leather">
+		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-itu_metal.002" name="mat-itu_metal.002">
+		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-itu_glass.002" name="mat-itu_glass.002">
+		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-itu_metal.001" name="mat-itu_metal.001">
+		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-itu_metal" name="mat-itu_metal">
+		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-itu_wood.002" name="mat-itu_wood.002">
+		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-itu_glass.003" name="mat-itu_glass.003">
+		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-custom_plastic" name="mat-custom_plastic">
+		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-itu_wood.008" name="mat-itu_wood.008">
+		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-itu_wood.009" name="mat-itu_wood.009">
+		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-itu_wood.010" name="mat-itu_wood.010">
+		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
+	</bsdf>
+	<bsdf type="diffuse" id="mat-itu_wood.011" name="mat-itu_wood.011">
+		<rgb value="1.000000 0.000000 0.300000" name="reflectance"/>
+	</bsdf>
+
+<!-- Emitters -->
+
+
+<!-- Shapes -->
+
+	<shape type="ply" id="mesh-Plane" name="mesh-Plane">
+		<string name="filename" value="meshes/Plane.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_concrete.002" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-Plane_003" name="mesh-Plane_003">
+		<string name="filename" value="meshes/Plane_003.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_concrete.001" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-glass_001" name="mesh-glass_001">
+		<string name="filename" value="meshes/glass_001.ply"/>
+		<ref id="mat-itu_glass.001" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-Plane_002" name="mesh-Plane_002">
+		<string name="filename" value="meshes/Plane_002.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_concrete.001" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-curtain_01_001" name="mesh-curtain_01_001">
+		<string name="filename" value="meshes/curtain_01_001.ply"/>
+		<ref id="mat-custom_cloth" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-Plane_005" name="mesh-Plane_005">
+		<string name="filename" value="meshes/Plane_005.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_concrete.002" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-glass_002" name="mesh-glass_002">
+		<string name="filename" value="meshes/glass_002.ply"/>
+		<ref id="mat-itu_glass.001" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-Plane_007" name="mesh-Plane_007">
+		<string name="filename" value="meshes/Plane_007.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_concrete.002" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-Plane_008" name="mesh-Plane_008">
+		<string name="filename" value="meshes/Plane_008.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_wood.005" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-Plane_001" name="mesh-Plane_001">
+		<string name="filename" value="meshes/Plane_001.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_concrete.001" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-Plane_004" name="mesh-Plane_004">
+		<string name="filename" value="meshes/Plane_004.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_concrete.003" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-Plane_006" name="mesh-Plane_006">
+		<string name="filename" value="meshes/Plane_006.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_wood.005" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-curtain_01_002" name="mesh-curtain_01_002">
+		<string name="filename" value="meshes/curtain_01_002.ply"/>
+		<ref id="mat-custom_cloth.001" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-curtain_01_003" name="mesh-curtain_01_003">
+		<string name="filename" value="meshes/curtain_01_003.ply"/>
+		<ref id="mat-custom_cloth.002" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-curtain_01_004" name="mesh-curtain_01_004">
+		<string name="filename" value="meshes/curtain_01_004.ply"/>
+		<ref id="mat-custom_cloth.003" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-table_05" name="mesh-table_05">
+		<string name="filename" value="meshes/table_05.ply"/>
+		<ref id="mat-itu_wood.006" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-chair_01" name="mesh-chair_01">
+		<string name="filename" value="meshes/chair_01.ply"/>
+		<ref id="mat-custom_leather" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-chair_01_001" name="mesh-chair_01_001">
+		<string name="filename" value="meshes/chair_01_001.ply"/>
+		<ref id="mat-itu_metal.002" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-lamp_03_001" name="mesh-lamp_03_001">
+		<string name="filename" value="meshes/lamp_03_001.ply"/>
+		<ref id="mat-itu_glass.002" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-lamp_03_002" name="mesh-lamp_03_002">
+		<string name="filename" value="meshes/lamp_03_002.ply"/>
+		<ref id="mat-itu_metal.001" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-tv_01_001" name="mesh-tv_01_001">
+		<string name="filename" value="meshes/tv_01_001.ply"/>
+		<ref id="mat-itu_metal" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-cabinet_05" name="mesh-cabinet_05">
+		<string name="filename" value="meshes/cabinet_05.ply"/>
+		<ref id="mat-itu_wood.002" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-tv_01_002" name="mesh-tv_01_002">
+		<string name="filename" value="meshes/tv_01_002.ply"/>
+		<boolean name="face_normals" value="true"/>
+		<ref id="mat-itu_glass.003" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-tv_01_003" name="mesh-tv_01_003">
+		<string name="filename" value="meshes/tv_01_003.ply"/>
+		<ref id="mat-custom_plastic" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-cabinet_03_002" name="mesh-cabinet_03_002">
+		<string name="filename" value="meshes/cabinet_03_002.ply"/>
+		<ref id="mat-itu_wood.008" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-cabinet_05_001" name="mesh-cabinet_05_001">
+		<string name="filename" value="meshes/cabinet_05_001.ply"/>
+		<ref id="mat-itu_wood.009" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-cabinet_05_002" name="mesh-cabinet_05_002">
+		<string name="filename" value="meshes/cabinet_05_002.ply"/>
+		<ref id="mat-itu_wood.010" name="bsdf"/>
+	</shape>
+	<shape type="ply" id="mesh-cabinet_05_003" name="mesh-cabinet_05_003">
+		<string name="filename" value="meshes/cabinet_05_003.ply"/>
+		<ref id="mat-itu_wood.011" name="bsdf"/>
+	</shape>
+
+<!-- Volumes -->
+
+</scene>
